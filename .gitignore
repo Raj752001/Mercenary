@@ -1,53 +1,102 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Django #
+*.log
+*.pot
+*.pyc
+**/__pycache__
+db.sqlite3
+media
 
-# C extensions
-*.so
+# Backup files # 
+*.bak 
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-.eggs/
+# Python # 
+*.py[cod] 
+*$py.class 
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Distribution / packaging 
+.Python build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
 
-# Pycharm project files
-.idea/
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
 
-# PyTest cache
-.pytest_cache/
+# Unit test / coverage reports 
+htmlcov/ 
+.tox/ 
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 
 
-# Coverage
-.coverage
-coverage.xml
 
-# Tox
-.tox/
-.cache/
-.python-version
+# Jupyter Notebook 
+.ipynb_checkpoints 
 
-# VirtualEnv
-.venv/
+# pyenv 
+.python-version 
 
-# Developers
-*.sw*
-manage.py
-.DS_Store
+# celery 
+celerybeat-schedule.* 
 
-# example database
-drf_example
+# SageMath parsed files 
+*.sage.py 
+
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+
+# mkdocs documentation 
+/site 
+
+# mypy 
+.mypy_cache/ 
+
+# Sublime Text # 
+*.tmlanguage.cache 
+*.tmPreferences.cache 
+*.stTheme.cache 
+*.sublime-workspace 
+*.sublime-project 
+
+# sftp configuration file 
+sftp-config.json 
+
+# Package control specific files Package 
+Control.last-run 
+Control.ca-list 
+Control.ca-bundle 
+Control.system-ca-bundle 
+GitHub.sublime-settings 
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
